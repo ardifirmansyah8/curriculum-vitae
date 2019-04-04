@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mazipan/bulma-resume-template.git"
+    "url": "git+https://github.com/ardifirmansyah8/curriculum-vitae.git"
   },
   "keywords": [
     "bulma",
@@ -22,9 +22,9 @@
   "author": "Irfan Maulana <github.com/mazipan/>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mazipan/bulma-resume-template/issues"
+    "url": "https://github.com/ardifirmansyah8/curriculum-vitae/issues"
   },
-  "homepage": "https://github.com/mazipan/bulma-resume-template#readme",
+  "homepage": "https://github.com/ardifirmansyah8/curriculum-vitae#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",

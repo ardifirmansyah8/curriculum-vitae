@@ -14,7 +14,7 @@ const isDev = () => {
 };
 
 const setPublicPath = () => {
-  return isDev() ? '/' : '/bulma-resume-template/';
+  return isDev() ? '/' : '/curriculum-vitae/';
 };
 
 const setPath = function(folderName) {
