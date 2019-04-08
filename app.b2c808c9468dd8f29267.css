@@ -6926,14 +6926,26 @@ label.panel-block {
   background-color: #282a36;
   padding: 3rem 1.5rem 6rem; }
 
+html {
+  background: #283e4a; }
+
 body {
   font-family: 'Raleway', sans-serif; }
+
+.has-background-primary {
+  background-color: #fff !important; }
+
+.has-text-primary {
+  color: #00aaef !important; }
+
+a {
+  color: #fff; }
 
 .line {
   height: 10px; }
 
 .hr {
-  border-bottom: 10px solid #bd93f9;
+  border-bottom: 10px solid #ffffff;
   margin: 0 1.5rem; }
 
 .section {
@@ -6943,7 +6955,7 @@ body {
   margin-bottom: 1.5rem; }
   .summary .title, .experience .title, .education .title, .projects .title, .skills .title, .awards .title, .languages .title {
     padding: .5em 0;
-    border-bottom: 1px solid #bd93f9; }
+    border-bottom: 1px solid #ffffff; }
 
 .experience .item, .education .item, .projects .item, .skills .item, .awards .item {
   padding: .5em 0; }
@@ -6963,7 +6975,8 @@ body {
     align-items: center; }
 
 .footer {
-  padding: 3rem 1.5rem 1rem; }
+  background-color: #283e4a;
+  padding: 3rem 1.5rem 6rem; }
 
 /* Query for mobile only*/
 @media screen and (max-width: 768px) {
