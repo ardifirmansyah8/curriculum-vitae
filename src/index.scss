@@ -1,10 +1,26 @@
-$theme: #bd93f9;
+$theme: #ffffff;
 $grey: #b5b5b5;
 
 @import "~bulma-dracula/src/bulma-dracula.scss";
 
+html {
+  background: #283e4a;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
+}
+
+.has-background-primary {
+  background-color: #fff !important;
+}
+
+.has-text-primary {
+  color: #00aaef !important;
+}
+
+a {
+  color: #fff;
 }
 
 .line {
@@ -55,8 +71,9 @@ body {
   }
 }
 
-.footer{
-  padding: 3rem 1.5rem 1rem;
+.footer {
+  background-color: #283e4a;
+  padding: 3rem 1.5rem 6rem;
 }
 
 /* Query for mobile only*/
